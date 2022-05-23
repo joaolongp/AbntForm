@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class App{
     public static void main(String[] args) throws IOException {
-        String filePath = "src\\main\\java\\org\\example\\resources\\test.docx";
+        String filePath = "src\\resources\\test.docx";
         DocxObject doc = DocxReader.getDocxObject(filePath);
 
         System.out.println(doc.getText());
