@@ -5,16 +5,20 @@ import java.util.List;
 
 public class DocxObject {
     private String text;
-    private List<String> words;
+
+    private String fileName;
+    private List<String> lines;
 
     public DocxObject(){
+        this.fileName = "";
         this.text = "";
-        this.words = new ArrayList<String>();
+        this.lines = new ArrayList<String>();
     }
 
-    public DocxObject(String text, ArrayList<String> words){
+    public DocxObject(String text, ArrayList<String> words, String fileName){
+        this.fileName = fileName;
         this.text = text;
-        this.words = words;
+        this.lines = words;
     }
 
     public void setText(String text){
@@ -25,13 +29,19 @@ public class DocxObject {
         return text;
     }
 
-    public void setWords(List<String> words){
-        this.words = words;
+    public void setLines(List<String> lines){
+        this.lines = lines;
     }
 
-    public List<String> getWords(){
-        return words;
+    public List<String> getLines(){
+        return lines;
     }
 
+    public String getFileName() {
+        return fileName;
+    }
 
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
 }

@@ -17,8 +17,9 @@ public class DocxReader {
     private static DocxObject wordsToDto(String path) throws IOException {
         DocxObject docxObject = new DocxObject();
         XWPFWordExtractor xwpfWordExtractor = new XWPFWordExtractor(loadDocxFile(path));
+        docxObject.setFileName(path.replace("src\\resources\\", ""));
         docxObject.setText(xwpfWordExtractor.getText());
-        docxObject.setWords(Arrays.stream(docxObject.getText().split("\\s+")).toList());
+        docxObject.setLines(Arrays.stream(docxObject.getText().split("\\n+")).toList());
 
         return docxObject;
     }
