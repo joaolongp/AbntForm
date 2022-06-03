@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef75bdb5-7d97-41bd-a84c-d5c0bb2e622a" name="Changes" comment="changed 'resources' package">
+    <list default="true" id="ef75bdb5-7d97-41bd-a84c-d5c0bb2e622a" name="Changes" comment="espaçamento,alinhamento, fonte e tamanho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DTO/DocxObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/DocxObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Util/DocxReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Util/DocxReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/test.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/test.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653326898022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="espaçamento,alinhamento, fonte e tamanho">
+      <created>1654277041102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654277041102</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +130,7 @@
     <MESSAGE value="things inuteis" />
     <MESSAGE value="Read .docx Doc, print the text and the n words on console" />
     <MESSAGE value="changed 'resources' package" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed 'resources' package" />
+    <MESSAGE value="espaçamento,alinhamento, fonte e tamanho" />
+    <option name="LAST_COMMIT_MESSAGE" value="espaçamento,alinhamento, fonte e tamanho" />
   </component>
 </project>
